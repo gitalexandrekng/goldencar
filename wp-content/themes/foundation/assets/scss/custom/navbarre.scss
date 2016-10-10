@@ -1,0 +1,66 @@
+$gold: #e0c389;
+
+.row{
+  position:relative;
+}
+
+.columns{
+  position:relative;
+}
+
+.topnavigation{
+  height:100px;
+  width:100%;
+  background:black;
+  //box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
+  position:relative;
+
+  .in{
+    height:100%;
+    max-width:1200px;
+    margin:auto;
+    position:relative;
+
+    nav{
+      position:absolute;
+      bottom:0;
+      right:-30px;
+      font-family: 'PT Sans Narrow', sans-serif;
+
+      ul{
+        margin:0;
+
+        li{
+          display: inline-block;
+
+          a{
+            font-size:18px;
+            padding:12px 30px;
+            display: block;
+            color:white;
+            border-bottom:4px solid transparent;
+            transition:0.3s;
+
+            &:hover{
+              border-bottom:4px solid $gold;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .logo{
+    position:absolute;
+    display:flex;
+    margin:auto;
+    left:0;
+    top:0;
+    bottom:0;
+
+    img{
+      margin:auto;
+      display: block;
+    }
+  }
+}
