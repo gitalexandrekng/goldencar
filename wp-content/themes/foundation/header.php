@@ -90,5 +90,14 @@
     </div>
   </div>
 
+  <section class="presentation">
+    <div class="row">
+      <div class="small-12 columns">
+        <p>Golden Car propose l’achat de voitures neuves ou d’occasion, mais également un panel de services associés.</p>
+        <p>Vous avez un rêve ? Nous sommes là pour vous le faire vivre. De l’achat d’une voiture, à la concrétisation d’un crédit ou la souscription d’une assurance, nous sommes à vos côtés à chaque étape.</p>
+      </div>
+    </div>
+  </section>
+
 	<section class="container">
 		<?php do_action( 'foundationpress_after_header' );
