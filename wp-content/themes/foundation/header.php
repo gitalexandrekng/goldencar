@@ -15,6 +15,7 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
@@ -74,12 +75,52 @@
       <div class="medium-4 columns">
         <div class="case">
           <div class="image" style="background-image:url(http://www.goldencar.fr/wp-content/uploads/2016/05/Land-Rover-Range-Rover-Evoque.jpg)"></div>
+          <div class="content">
+            <div class="logo_car"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/car_logo/land_rover.png" alt=""></div>
+            <div class="caracteristiques">
+              <div class="row">
+                <div class="small-4 columns">
+                  <div class="incolumn">
+                    <span class="picto" style="background-image:url(<?php echo get_stylesheet_directory_uri() ?>/images/picto/history.png)"></span>
+                    <span class="txt">2013</span>
+                  </div>
+                </div>
+                <div class="small-4 columns">
+                  <div class="incolumn">
+                    <span class="picto" style="background-image:url(<?php echo get_stylesheet_directory_uri() ?>/images/picto/car.png)"></span>
+                    <span class="txt">26000km</span>
+                  </div>
+                </div>
+                <div class="small-4 columns">
+                  <div class="incolumn">
+                    <span class="picto" style="background-image:url(<?php echo get_stylesheet_directory_uri() ?>/images/picto/euro.png)"></span>
+                    <span class="txt">26000€</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="title">
+              <h4><span class="marque">Range Rover</span>Evoque</h4>
+            </div>
+            <div class="type">
+              Finition luxe - Diesel 2.2L
+            </div>
+            <div class="equipements">
+              Bluetooth - Sièges chauffants - Lecteur multimédia - Boîte automatique - Phares xénon
+            </div>
+          </div>
           <div class="niveaufinition"></div>
         </div>
       </div>
       <div class="medium-4 columns">
         <div class="case">
           <div class="image" style="background-image:url(http://www.goldencar.fr/wp-content/uploads/2016/05/Renault-Captur.jpg)"></div>
+          <div class="content">
+            <div class="logo_car"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/car_logo/renault.png" alt=""></div>
+            <div class="title">
+              <h4>Captur</h4>
+            </div>
+          </div>
         </div>
       </div>
       <div class="medium-4 columns">
@@ -93,6 +134,7 @@
   <section class="presentation">
     <div class="row">
       <div class="small-12 columns">
+        <div class="text-center"><h2>Un service sur mesure pour votre confort</h2></div>
         <p>Golden Car propose l’achat de voitures neuves ou d’occasion, mais également un panel de services associés.</p>
         <p>Vous avez un rêve ? Nous sommes là pour vous le faire vivre. De l’achat d’une voiture, à la concrétisation d’un crédit ou la souscription d’une assurance, nous sommes à vos côtés à chaque étape.</p>
       </div>

@@ -11,12 +11,96 @@
   margin-top:-100px;
 
   .case{
-    height:400px;
+    height:470px;
     background:white;
     width:100%;
     box-shadow:0px 0px 50px rgba(0,0,0,0.1);
     padding:10px;
-    border-radius:4px;
+    position:relative;
+    //border-radius:4px;
+
+    .content{
+      position:relative;
+
+      .logo_car{
+        display:none;
+        position:absolute;
+        width:80px;
+        height:80px;
+        top:-40px;
+        padding:10px;
+        left:15px;
+        margin:auto;
+        background:rgba(255,255,255,1);
+        border-radius:50%;
+        //box-shadow:0px 20px 20px rgba(0,0,0,0.3);
+      }
+    }
+
+    .title{
+      //text-align: center;
+      padding-top:5px;
+      text-align: center;
+      display:flex;
+      width:100%;
+
+      h4{
+        font-family: "Raleway";
+        color:darken(#666,10%);
+        //border-bottom:2px solid lighten(#CCC,12%);
+        margin:auto;
+
+        .marque{
+          font-size:16px;
+          margin-right:5px;
+          font-weight:bold;
+        }
+      }
+    }
+
+    .type{
+      margin-top:0px;
+      font-weight: bold;
+      text-align: center;
+      color:darken($gold,10%);
+    }
+
+    .caracteristiques{
+      margin-top:20px;
+      margin-bottom:15px;
+      opacity:0.6;
+      font-family: "PT Sans Narrow";
+
+      .column{
+        text-align: center;
+
+        .incolumn{
+          margin:auto;
+          width:100%;
+
+          .picto{
+            display: block;
+            height:15px;
+            width:15px;
+            margin:auto;
+            background-size:cover;
+            background-position:center;
+          }
+
+          .txt{
+            display:block;
+            margin-top:5px;
+            border-bottom:2px solid lighten(#CCC,7%);
+            //margin-left:10px;
+          }
+        }
+      }
+    }
+
+    .equipements{
+      margin-top:13px;
+      text-align: center;
+    }
 
     .image{
       background:red;
@@ -25,5 +109,12 @@
       background-size:cover;
       background-position:center;
     }
+  }
+}
+
+.presentation{
+  margin-top:50px;
+
+  h2{
   }
 }
