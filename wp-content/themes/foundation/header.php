@@ -68,7 +68,14 @@
   </div>
 
   <header class="topheader" style="background-image:url(<?php echo get_stylesheet_directory_uri() ?>/images/header/1.jpg)">
-
+    <div class="annonces-container">
+      <h3>Profitez de notre offre de pilotage</h3>
+      <div class="sc">
+        <p>Puisque conduire une voiture est une passion, savoir la piloter est primordial<br>En ce moment, puisque notre objectif est de vous satisfaire, nous vous offrons la formation pilotage lorsque vous achetez une de nos voiture
+        <a href="#" class="custombutton">En savoir plus</a>
+        </p>
+      </div>
+    </div>
   </header>
   <div class="focus">
     <div class="row">

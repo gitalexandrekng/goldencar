@@ -53,6 +53,7 @@ $gold: #e0c389;
   .logo{
     position:absolute;
     display:flex;
+    flex-direction: column;
     margin:auto;
     left:0;
     top:0;
